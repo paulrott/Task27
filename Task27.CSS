@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position</title>
+  <link rel="stylesheet" type="text/css" href="Task27.css">
+
+  <style type="text/css">
+
+.blue-with-border {
+  color: white;
+  background: red;
+  border-color: orange;
+  border-width: 2px;
+  border-style: dashed;
+  width: 300px;
+  border-radius: 5px;
+  height: 10000px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 2;
+}
+
+.fourth-paragraph {
+  background: orange;
+  color: white;
+  width: 200px;
+  border-radius: 5px;
+  height: 100px;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  z-index: 4;
+  opacity: 0.75;
+}
+
+    </style>
+</head>
+<body>
+<div class="blue-with-border">
+  <p>Ready for Sky.</p>
+  <p>Internet of things.</p>
+</div>
+
+<div class="fourth-paragraph">
+  <p>Sky Services.</p>
+  <p>Sky Recipes.</p>
+</div>
+
+</body>
+</html>
+</html>
